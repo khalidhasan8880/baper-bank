@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <h2 class="text-center text-4xl font-semibold">welcome to main section</h2>
+    </header>
+    <main class="w-9/12 p-8 mx-auto">
+        <!-- display field  -->
+        <div class="grid grid-cols-3 gap-4 font-semibold my-5">
+            <div class="bg-red-200 p-4 rounded">
+                <h4 class="text-3xl">diposite</h4>
+                <span id="diposite-number"  class="diposite-digit text-4xl">00</span>
+            </div>
+            <div class="bg-red-200 p-4 rounded">
+                <h4 class="text-3xl">withdraw</h4>
+                <span id="withdraw-number"  class="withdraw-digit text-4xl">00</span>
+            </div>
+            <div class="bg-red-200 p-4 rounded">
+                <h4 class="text-3xl">balance</h4>
+                <span id="balance-number" class="balance-digit text-4xl">1200</span>
+            </div>
+        </div>
+        <!-- input field -->
+        <div class="grid grid-cols-2 gap-4">
+            <div class="p-4 bg-red-100 ">
+                <h4 class=" text-3xl font-semibold">please diposite</h4>
+                <input id="diposite-input" class="w-9/12 p-2 rounded"  type="number">
+                <button id="diposite-submit" class="bg-red-200 text-1xl font-semibold px-8 py-4 my-2">submit</button>
+            </div>
+            <div class="p-4 bg-red-100">
+                <h4 class=" text-3xl font-semibold">please withdraw</h4>
+                <input id="withdraw-input" class="w-9/12 p-2 rounded" type="number"> 
+                <button id="withdraw-submit" class="bg-red-200 text-1xl font-semibold px-8 py-4 my-2">submit</button>
+            </div>
+        </div>
+          
+          <input>
+        
+    </main>
+    
+    <script src="diposite.js"></script>
+</body>
+</html>
